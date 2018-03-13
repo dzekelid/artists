@@ -34,7 +34,7 @@ apis:
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/artists/master/_listings/spotify/artists-id-albums-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/artists/master/_listings/spotify/artists-id-related-artists-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
