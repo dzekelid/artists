@@ -1,12 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: eMuseum API
-  description: Developed in partnership with museums, The Museum System makes capturing,
-    managing and accessing collection information quick and easy. eMuseum is a web-based
-    software program that integrates seamlessly with TMS and other collection management
-    systems to dynamically publish information to your website, Intranet, and kiosks.
-    This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.
+  title: eMuseum API Artist
+  description: Request an artist
   version: 1.0.0
 host: gsafinearts.pbs.gsa.gov
 basePath: /emuseum/api
