@@ -37,17 +37,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-top-tracks-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-top-tracks-get-postman.md
-- name: Spotify Get Artist Related ARtists
-  description: '[Get an Artist''s Related Artists](https://developer.spotify.com/web-api/get-related-artists/)'
+- name: Spotify Get Artist Top Tracks
+  description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
   image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-related-artists-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-top-tracks-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-related-artists-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-id-top-tracks-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
