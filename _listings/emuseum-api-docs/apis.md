@@ -24,7 +24,7 @@ apis:
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/search-people-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/id-people-id-get.md
 x-common:
 - type: x-issues-page
   url: https://github.com/GSA/eMuseum-API/issues
