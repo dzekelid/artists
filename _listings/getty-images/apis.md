@@ -34,17 +34,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-videos-get.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-videos-get-postman.md
-- name: Getty Images Search Artist Images
-  description: Search for images by a photographer
+- name: Getty Images Search Artist ImaVideosges
+  description: Search for videos by a photographer
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com//
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-images-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-videos-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-images-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3-artists-videos-get-postman.md
 x-common:
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
