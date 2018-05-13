@@ -25,15 +25,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/id-people-id-get.md
-- name: eMuseum API Artists
-  description: Search for an artist
+- name: eMuseum API Artist
+  description: Request an artist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
   humanURL: http://gsa.github.io/eMuseum-API/
   baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/search-people-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/id-people-id-get.md
 x-common:
 - type: x-issues-page
   url: https://github.com/GSA/eMuseum-API/issues
