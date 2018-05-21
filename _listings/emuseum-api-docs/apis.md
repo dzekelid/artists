@@ -1,44 +1,55 @@
 ---
 name: eMuseum API docs
+x-slug: emuseum-api-docs
 description: Developed in partnership with museums, The Museum System makes capturing,
   managing and accessing collection information quick and easy. eMuseum is a web-based
   software program that integrates seamlessly with TMS and other collection management
   systems to dynamically publish information to your website, Intranet, and kiosks.
-  This API delivers search information and images from TMS amp; eMuseum to GSA.gov.
+  This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Federal Government   GSA
-created: "2018-05-12"
-modified: "2018-05-12"
+tags: Artists
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/apis.md
 specificationVersion: "0.14"
 apis:
-- name: eMuseum API
-  description: Developed in partnership with museums, The Museum System makes capturing,
-    managing and accessing collection information quick and easy
+- name: eMuseum API Artists
+  x-api-slug: emuseum-api
+  description: Search for an artist
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
-  humanURL: ""
-  baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api
+  humanURL: http://gsa.github.io/eMuseum-API/
+  baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api//search/people
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/id-people-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/searchpeople-get-openapi.md
 - name: eMuseum API Artist
+  x-api-slug: emuseum-api
   description: Request an artist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
+  humanURL: http://gsa.github.io/eMuseum-API/
+  baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api//id/people/{id}
+  tags: Artists
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/idpeopleid-get-openapi.md
+- name: eMuseum API
+  x-api-slug: emuseum-api
+  description: Developed in partnership with museums, The Museum System makes capturing,
+    managing and accessing collection information quick and easy. eMuseum is a web-based
+    software program that integrates seamlessly with TMS and other collection management
+    systems to dynamically publish information to your website, Intranet, and kiosks.
+    This API delivers search information and images from TMS &amp; eMuseum to GSA.gov.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
   humanURL: http://gsa.github.io/eMuseum-API/
   baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api
   tags: Artists
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/id-people-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/openapi.md
 x-common:
-- type: x-issues-page
-  url: https://github.com/GSA/eMuseum-API/issues
-- type: x-website
-  url: http://gsa.github.io/eMuseum-API/
 - type: x-issues-page
   url: https://github.com/GSA/eMuseum-API/issues
 - type: x-website
