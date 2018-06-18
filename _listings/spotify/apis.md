@@ -1,26 +1,21 @@
 ---
 name: Spotify
 x-slug: spotify
-description: Spotify has created a lightweight software application that allows instant
-  listening to specific tracks or albums with virtually no buffering delay. It was
-  launched in the fall of 2008 and had approximately 10 million users by September
-  2010. Spotify offers streaming music from major and independent record labels including
-  Sony, EMI, Warner Music Group, and Universal. Users download Spotify and then log
-  onto their service enabling the on-demand streaming of music. Music can be browsed
-  by artist, album, record label, genre or playlist as well as by direct searches.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+description: Spotify is a digital music service that gives you access to millions
+  of songs.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "133"
 tags: Artists
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Spotify Get Artists
   x-api-slug: spotify
   description: '[Get Several Artists](https://developer.spotify.com/web-api/get-several-artists/)'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1//artists
   tags: Music,Artists
@@ -32,7 +27,7 @@ apis:
 - name: Spotify Get Artist
   x-api-slug: spotify
   description: '[Get an Artist](https://developer.spotify.com/web-api/get-artist/)'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1//artists/{id}
   tags: Music,Artists
@@ -44,7 +39,7 @@ apis:
 - name: Spotify Get Artist Albums
   x-api-slug: spotify
   description: '[Get an Artist''s Albums](https://developer.spotify.com/web-api/get-artists-albums/)'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1//artists/{id}/albums
   tags: Music,Artists,Albums
@@ -56,7 +51,7 @@ apis:
 - name: Spotify Get Artist Related ARtists
   x-api-slug: spotify
   description: '[Get an Artist''s Related Artists](https://developer.spotify.com/web-api/get-related-artists/)'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1//artists/{id}/related-artists
   tags: Music,Artists
@@ -68,7 +63,7 @@ apis:
 - name: Spotify Get Artist Top Tracks
   x-api-slug: spotify
   description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1//artists/{id}/top-tracks
   tags: Music,Artists,Tracks
@@ -79,15 +74,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
 - name: Spotify
   x-api-slug: spotify
-  description: Spotify has created a lightweight software application that allows
-    instant listening to specific tracks or albums with virtually no buffering delay.
-    It was launched in the fall of 2008 and had approximately 10 million users by
-    September 2010. Spotify offers streaming music from major and independent record
-    labels including Sony, EMI, Warner Music Group, and Universal. Users download
-    Spotify and then log onto their service enabling the on-demand streaming of music.
-    Music can be browsed by artist, album, record label, genre or playlist as well
-    as by direct searches.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spotify-green-logo.jpg
+  description: Spotify is a digital music service that gives you access to millions
+    of songs.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Artists
@@ -95,7 +84,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
@@ -114,9 +103,13 @@ x-common:
 - type: x-console
   url: https://developer.spotify.com/web-api/console/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/spotify
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/spotify
 - type: x-developer
   url: https://developer.spotify.com/
+- type: x-email
+  url: office@spotify.com
 - type: x-ios-sdk
   url: https://developer.spotify.com/technologies/spotify-ios-sdk/
 - type: x-issues
@@ -133,6 +126,8 @@ x-common:
   url: https://github.com/spotify
 - type: x-website
   url: http://www.spotify.com
+- type: x-website
+  url: http://spotify.com
 include: []
 maintainers:
 - FN: Kin Lane
