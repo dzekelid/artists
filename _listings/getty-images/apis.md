@@ -13,9 +13,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Getty Images
-  x-api-slug: getty-images
-  description: build-applications-using-the-worlds-most-powerful-imagery
+- name: Getty Images - Search Artist Images
+  x-api-slug: v3artistsimages-get
+  description: Search for images by a photographer
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com//
@@ -27,9 +27,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsimages-get-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: build-applications-using-the-worlds-most-powerful-imagery
+- name: Getty Images - Search Artist ImaVideosges
+  x-api-slug: v3artistsvideos-get
+  description: Search for videos by a photographer
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com//
@@ -37,26 +37,10 @@ apis:
     Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
     Publish, General Data, Relative Data, Service API
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsimages-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsimages-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/v3artistsvideos-get-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: Find high resolution royalty-free images, editorial stock photos, vector
-    art, video footage clips and stock music licensing at the richest image search
-    photo library online.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com//
-  tags: Artists
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/getty-images/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://getstream.io.api.gallery.streamdata.io
