@@ -92,6 +92,26 @@ paths:
       tags:
       - Music
       - Artists
+  /artists/{id}/top-tracks:
+    get:
+      summary: Get Artist Top Tracks
+      description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
+      operationId: get-an-artists-top-trackshttpsdeveloperspotifycomwebapigetartiststoptracks
+      x-api-path-slug: artistsidtoptracks-get
+      parameters:
+      - in: query
+        name: country
+        description: The country (an ISO 3166-1 alpha-2 country code)
+      - in: path
+        name: id
+        description: The Spotify ID for the artist
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Artists
+      - Tracks
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -47,6 +47,71 @@ paths:
       tags:
       - Music
       - Artists
+  /artists/{id}/albums:
+    get:
+      summary: Get Artist Albums
+      description: '[Get an Artist''s Albums](https://developer.spotify.com/web-api/get-artists-albums/)'
+      operationId: get-an-artists-albumshttpsdeveloperspotifycomwebapigetartistsalbums
+      x-api-path-slug: artistsidalbums-get
+      parameters:
+      - in: query
+        name: album_type
+        description: Filter by album types
+      - in: path
+        name: id
+        description: The Spotify ID for the artist
+      - in: query
+        name: limit
+        description: The maximum number of items to return
+      - in: query
+        name: market
+        description: The market (an ISO 3166-1 alpha-2 country code)
+      - in: query
+        name: offset
+        description: The index of the first item to return
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Artists
+      - Albums
+  /artists/{id}/related-artists:
+    get:
+      summary: Get Artist Related ARtists
+      description: '[Get an Artist''s Related Artists](https://developer.spotify.com/web-api/get-related-artists/)'
+      operationId: get-an-artists-related-artistshttpsdeveloperspotifycomwebapigetrelatedartists
+      x-api-path-slug: artistsidrelatedartists-get
+      parameters:
+      - in: path
+        name: id
+        description: The Spotify ID for the artist
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Artists
+  /artists/{id}/top-tracks:
+    get:
+      summary: Get Artist Top Tracks
+      description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
+      operationId: get-an-artists-top-trackshttpsdeveloperspotifycomwebapigetartiststoptracks
+      x-api-path-slug: artistsidtoptracks-get
+      parameters:
+      - in: query
+        name: country
+        description: The country (an ISO 3166-1 alpha-2 country code)
+      - in: path
+        name: id
+        description: The Spotify ID for the artist
+      responses:
+        200:
+          description: OK
+      tags:
+      - Music
+      - Artists
+      - Tracks
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

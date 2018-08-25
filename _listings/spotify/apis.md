@@ -7,71 +7,261 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spoti
 x-kinRank: "8"
 x-alexaRank: "132"
 tags: Artists
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spotify Get Artists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get Several Artists](https://developer.spotify.com/web-api/get-several-artists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
-- name: Spotify Get Artist
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist](https://developer.spotify.com/web-api/get-artist/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
-- name: Spotify Get Artist Albums
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Albums](https://developer.spotify.com/web-api/get-artists-albums/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/albums
-  tags: Music,Artists,Albums
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
-- name: Spotify Get Artist Related ARtists
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Related Artists](https://developer.spotify.com/web-api/get-related-artists/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/related-artists
-  tags: Music,Artists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
-- name: Spotify Get Artist Top Tracks
+- name: Spotify
   x-api-slug: spotify
-  description: '[Get an Artist''s Top Tracks](https://developer.spotify.com/web-api/get-artists-top-tracks/)'
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//artists/{id}/top-tracks
-  tags: Music,Artists,Tracks
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
+  description: our-web-api-lets-your-applications-fetch-data-from-the-spotify-music-catalog-and-manage-users-playlists-and-saved-music--based-on-simple-rest-principles-our-web-api-endpoints-return-metadata-in-json-format-about-artists-albums-and-tracks-directly-from-the-spotify-catalogue--the-api-also-provides-access-to-userrelated-data-such-as-playlists-and-music-saved-in-a-your-music-library-subject-to-users-authorization-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidtoptracks-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artists-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidalbums-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/spotify/artistsidrelatedartists-get-openapi.md
 - name: Spotify
   x-api-slug: spotify
   description: Spotify is a digital music service that gives you access to millions
@@ -88,6 +278,10 @@ x-common:
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
+- type: x-api-gallery
+  url: http://spire.global.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spotify.stack.network
 - type: x-application-gallery
   url: https://developer.spotify.com/my-applications/
 - type: x-application-gallery
