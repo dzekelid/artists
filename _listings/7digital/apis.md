@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digit
 x-kinRank: "7"
 x-alexaRank: "55455"
 tags: Artists
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/7digital/apis.md
 specificationVersion: "0.14"
 apis:
@@ -33,6 +33,34 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
   humanURL: http://7digital.com
   baseURL: ://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/7digital/artistbrowse-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/7digital/artistbrowse-get-openapi.md
+- name: 7digital Catalogue API - artist/browse
+  x-api-slug: artistbrowse-get
+  description: This method returns a list of artists from the 7digital catalogue whose
+    names match the start letter(s) supplied.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: ://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/7digital/artistbrowse-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/7digital/artistbrowse-get-openapi.md
+- name: 7digital Purchasing API - artist/browse
+  x-api-slug: artistbrowse-get
+  description: This method returns a list of artists from the 7digital catalogue whose
+    names match the start letter(s) supplied.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: https://api.7digital.com/1.2/
   tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
     Publish, General Data, Relative Data
   properties:

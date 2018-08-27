@@ -10,11 +10,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Artists
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: eMuseum API - Artists
+  x-api-slug: searchpeople-get
+  description: Search for an artist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
+  humanURL: http://gsa.github.io/eMuseum-API/
+  baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api
+  tags: Federal Government   GSA, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/searchpeople-get-openapi.md
+- name: eMuseum API - Artist
+  x-api-slug: idpeopleid-get
+  description: Request an artist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/eMuseum5_Blog.jpg
+  humanURL: http://gsa.github.io/eMuseum-API/
+  baseURL: https://gsafinearts.pbs.gsa.gov//emuseum/api
+  tags: Federal Government   GSA, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/artists/master/_listings/emuseum-api-docs/idpeopleid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://elastic.email.api.gallery.streamdata.io
